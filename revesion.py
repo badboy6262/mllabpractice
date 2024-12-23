@@ -41,3 +41,14 @@ for i in range(1,100):
         max=i
         
 print(max)
+lst=[]
+while True:
+    num=int(input("enter a number"))
+    if num!=0:
+        lst.append(num)
+    else:
+        break;
+
+print(lst)
+lst.sort()
+print(lst)
